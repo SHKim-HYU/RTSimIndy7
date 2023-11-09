@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -Wall -Wextra -fPIC -O2 -DNDEBUG -fPIC   -std=c++17
 
 CXX_DEFINES = -DRobot_EXPORTS -D__CASADI__
 
-CXX_INCLUDES = -I/home/robot/temp_ws/RTSimIndy7/bin/inc -I/usr/src/linux-headers-5.4.239-xenomai-3.2.3+ -I/home/robot/temp_ws/RTSimIndy7/include/Interpolator -I/home/robot/temp_ws/RTSimIndy7/include/Robot -I/opt/casadi/include -I/opt/casadi/include/casadi -isystem /usr/include/eigen3 -isystem /usr/include/jsoncpp 
+CXX_INCLUDES = -I/home/robot/temp_ws/RTSimIndy7/bin/inc -I/home/robot/temp_ws/RTSimIndy7/include/Interpolator -I/home/robot/temp_ws/RTSimIndy7/include/Robot -I/opt/casadi/include -I/opt/casadi/include/casadi -isystem /usr/include/eigen3 -isystem /usr/include/jsoncpp 
 

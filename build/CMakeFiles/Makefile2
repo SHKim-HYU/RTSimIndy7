@@ -112,8 +112,8 @@ include/Robot/clean: include/Robot/CMakeFiles/Robot.dir/clean
 # Target rules for target CMakeFiles/RTSimIndy7_01.dir
 
 # All Build rule for target.
-CMakeFiles/RTSimIndy7_01.dir/all: include/Robot/CMakeFiles/Robot.dir/all
 CMakeFiles/RTSimIndy7_01.dir/all: include/Interpolator/CMakeFiles/Interpolator.dir/all
+CMakeFiles/RTSimIndy7_01.dir/all: include/Robot/CMakeFiles/Robot.dir/all
 	$(MAKE) -f CMakeFiles/RTSimIndy7_01.dir/build.make CMakeFiles/RTSimIndy7_01.dir/depend
 	$(MAKE) -f CMakeFiles/RTSimIndy7_01.dir/build.make CMakeFiles/RTSimIndy7_01.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/temp_ws/RTSimIndy7/build/CMakeFiles --progress-num=2,3 "Built target RTSimIndy7_01"

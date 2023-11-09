@@ -51,17 +51,9 @@
 
 using namespace std;
 
-#ifdef __CB__
-#define NUM_IO_MODULE 	1
-#else
-#define NUM_IO_MODULE 	0
-#endif
-#define NUM_TOOL 		1
-#ifdef __RP__
-#define NUM_AXIS		7
-#else
+
 #define NUM_AXIS		6
-#endif
+
 #define NUM_SLAVES (NUM_IO_MODULE+NUM_AXIS+NUM_TOOL)		//Modify this number to indicate the actual number of motor on the network
 
 #ifndef PI
@@ -91,9 +83,6 @@ unsigned long periodEcat = 0, worstEcat = 0;
 unsigned long periodBuffer = 0, worstBuffer = 0;
 unsigned int overruns = 0;
 
-#ifdef __BULLET__
-unsigned long periodBullet = 0;
-#endif
 unsigned long periodIndysim = 0;
 
 

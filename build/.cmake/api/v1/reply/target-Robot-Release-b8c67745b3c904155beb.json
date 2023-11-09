@@ -103,10 +103,6 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/usr/src/linux-headers-5.4.239-xenomai-3.2.3+"
-				},
-				{
-					"backtrace" : 6,
 					"path" : "/home/robot/temp_ws/RTSimIndy7/include/Interpolator"
 				},
 				{
