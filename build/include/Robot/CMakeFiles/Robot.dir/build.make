@@ -80,10 +80,6 @@ Robot_EXTERNAL_OBJECTS =
 include/Robot/libRobot.so: include/Robot/CMakeFiles/Robot.dir/CS_Indy7.cpp.o
 include/Robot/libRobot.so: include/Robot/CMakeFiles/Robot.dir/build.make
 include/Robot/libRobot.so: /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
-include/Robot/libRobot.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-include/Robot/libRobot.so: /usr/lib/x86_64-linux-gnu/libPocoUtil.so
-include/Robot/libRobot.so: /usr/lib/x86_64-linux-gnu/libPocoZip.so
-include/Robot/libRobot.so: /usr/lib/x86_64-linux-gnu/libPocoNet.so
 include/Robot/libRobot.so: /opt/casadi/lib/libcasadi.so
 include/Robot/libRobot.so: include/Robot/CMakeFiles/Robot.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/temp_ws/RTSimIndy7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libRobot.so"

@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 25,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 38,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 60,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -62,13 +62,13 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 65,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 34,
+				"line" : 24,
 				"parent" : 0
 			}
 		]
@@ -100,6 +100,10 @@
 				{
 					"backtrace" : 5,
 					"path" : "/home/robot/temp_ws/RTSimIndy7/bin/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/src/linux-headers-5.4.239-xenomai-3.2.3+"
 				},
 				{
 					"backtrace" : 6,
@@ -151,22 +155,6 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoFoundation.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoUtil.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoZip.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoNet.so",
 				"role" : "libraries"
 			},
 			{

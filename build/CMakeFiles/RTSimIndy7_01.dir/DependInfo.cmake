@@ -16,9 +16,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../bin/inc"
+  "/usr/src/linux-headers-5.4.239-xenomai-3.2.3+"
   "../include/Interpolator"
   "../include/Robot"
-  "/usr/src/linux-headers-5.4.239-xenomai-3.2.3+"
   "/usr/xenomai/include/cobalt"
   "/usr/xenomai/include"
   "/usr/xenomai/include/alchemy"

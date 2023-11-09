@@ -359,7 +359,7 @@ RTSimIndy7_01_SOURCE_DIR:STATIC=/home/robot/temp_ws/RTSimIndy7
 Robot_BINARY_DIR:STATIC=/home/robot/temp_ws/RTSimIndy7/build/include/Robot
 
 //Dependencies for the target
-Robot_LIB_DEPENDS:STATIC=general;jsoncpp_lib;optimized;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;debug;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;optimized;/usr/lib/x86_64-linux-gnu/libPocoUtil.so;debug;/usr/lib/x86_64-linux-gnu/libPocoUtil.so;optimized;/usr/lib/x86_64-linux-gnu/libPocoZip.so;debug;/usr/lib/x86_64-linux-gnu/libPocoZip.so;optimized;/usr/lib/x86_64-linux-gnu/libPocoNet.so;debug;/usr/lib/x86_64-linux-gnu/libPocoNet.so;general;/opt/casadi/lib/libcasadi.so;general;dl;
+Robot_LIB_DEPENDS:STATIC=general;jsoncpp_lib;general;/opt/casadi/lib/libcasadi.so;general;dl;
 
 //Value Computed by CMake
 Robot_SOURCE_DIR:STATIC=/home/robot/temp_ws/RTSimIndy7/include/Robot

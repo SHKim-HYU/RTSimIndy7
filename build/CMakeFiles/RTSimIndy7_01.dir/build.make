@@ -84,11 +84,6 @@ RTSimIndy7_01: include/Robot/libRobot.so
 RTSimIndy7_01: /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
 RTSimIndy7_01: /opt/casadi/lib/libcasadi.so
 RTSimIndy7_01: /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
-RTSimIndy7_01: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-RTSimIndy7_01: /usr/lib/x86_64-linux-gnu/libPocoUtil.so
-RTSimIndy7_01: /usr/lib/x86_64-linux-gnu/libPocoZip.so
-RTSimIndy7_01: /usr/lib/x86_64-linux-gnu/libPocoNet.so
-RTSimIndy7_01: /opt/casadi/lib/libcasadi.so
 RTSimIndy7_01: CMakeFiles/RTSimIndy7_01.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/temp_ws/RTSimIndy7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RTSimIndy7_01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RTSimIndy7_01.dir/link.txt --verbose=$(VERBOSE)

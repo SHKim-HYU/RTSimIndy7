@@ -64,12 +64,6 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 150,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
 				"line" : 159,
 				"parent" : 0
 			},
@@ -117,6 +111,10 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "/usr/src/linux-headers-5.4.239-xenomai-3.2.3+"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "/home/robot/temp_ws/RTSimIndy7/include/Interpolator"
 				},
 				{
@@ -125,30 +123,26 @@
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/usr/src/linux-headers-5.4.239-xenomai-3.2.3+"
-				},
-				{
-					"backtrace" : 8,
 					"path" : "/usr/xenomai/include/cobalt"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"path" : "/usr/xenomai/include"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"path" : "/usr/xenomai/include/alchemy"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"path" : "/opt/casadi/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"path" : "/opt/casadi/include/casadi"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 9,
 					"isSystem" : true,
 					"path" : "/usr/include/eigen3"
 				},
@@ -169,11 +163,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "Interpolator::@3b557d557d621394a5fb"
+			"id" : "Robot::@bc8f6043f00d71530807"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "Robot::@bc8f6043f00d71530807"
+			"id" : "Interpolator::@3b557d557d621394a5fb"
 		}
 	],
 	"id" : "RTSimIndy7_01::@6890427a1f51a3e7e1df",
@@ -247,30 +241,6 @@
 			{
 				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoFoundation.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoUtil.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoZip.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoNet.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-ldl",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/casadi/lib/libcasadi.so",
 				"role" : "libraries"
 			}
 		],
